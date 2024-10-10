@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+<html>
+<body>
+    <p>Buen dia</p>
+    <p>&nbsp;</p>
+    <p>Se informa que el proceso de validacion de Datos Abiertos del Formato <span style="text-decoration: underline;"><strong>_Formato_</strong></span> ha presentado fallas para el dia <span style="text-decoration: underline;"><strong>_fecha_</strong></span>, el error presentado es:</p>
+    <p>_Mensaje_error_</p>
+    <p>&nbsp;</p>
+    <p>Agradecemos la atencion prestada</p>
+
+</body>
+</html>

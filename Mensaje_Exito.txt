@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Correo Electrónico</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.5;
+            margin: 20px;
+        }
+        p {
+            margin: 0 0 10px; /* Espaciado entre párrafos */
+        }
+        strong {
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <p>Buen día,</p>
+
+    <p>
+        El proceso de validación de información publicada en la página de Datos Abiertos 
+        (<a href="https://www.datos.gov.co/">https://www.datos.gov.co/</a>) generada para la fecha 
+        <strong>_Fecha_</strong> finalizó con éxito, el periodo evaluado corresponde a:
+    </p>
+
+    <p>
+        Fecha Inicial: <strong>_FechaInicio_</strong><br>
+        Fecha Final: <strong>_FechaFin_</strong>
+    </p>
+
+    <p>Resultado de las validaciones de la información se relacionan las siguientes observaciones:</p>
+
+    <ol>
+        <li>
+            Registros No Reportados en Datos Abiertos: <strong>_cantidad_No_Reportados_DA_</strong> 
+            (Nombre del Archivo: <strong>_Archivo_1_</strong>)
+        </li>
+        <li>
+            Registros con Diferencia entre las dos Fuentes: 
+            <ul>
+                <li>
+                    Base de Datos Reporta <strong>_Cantidad_Tera_</strong> 
+                    (Nombre del Archivo: <strong>_Archivo_3_</strong>)
+                </li>
+                <li>
+                    Datos Abiertos reporta <strong>_Cantidad_Datos_abiertos_</strong> 
+                    (Nombre del Archivo: <strong>_Archivo_4_</strong>)
+                </li>
+            </ul>
+        </li>
+        <li>
+            Registros con ausencia de una o varias fechas sin reporte: <strong>_sin_reporte_</strong> 
+            (Nombre del Archivo: <strong>_Archivo_5_</strong>)
+        </li>
+    </ol>
+
+    <p>Quedamos atentos a sus comentarios.</p>
+</body>
+</html>

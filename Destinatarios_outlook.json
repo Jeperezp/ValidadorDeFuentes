@@ -1,0 +1,10 @@
+{
+    "destinatarios": {
+      "mensaje_Error": ["pepito@contoso.com.co", "pepito1@contoso.com.co"],
+      "Formato": [ "pepito@contoso.com.co", "pepito1@contoso.com.co"]
+    },
+    "Con_Copia": {
+      "mensaje_Error": ["pepito@contoso.com.co"],
+      "Formato": [ "pepito@contoso.com.co"]
+    }
+}
