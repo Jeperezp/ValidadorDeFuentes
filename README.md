@@ -72,4 +72,4 @@ El proyecto utiliza un archivo `.env` para gestionar las rutas y las configuraci
 
 1. Clona este repositorio en tu entorno local:
    ```bash
-   git clone <URL_DEL_REPOSITORIO>
+   git clone <https://github.com/Jeperezp/ValidadorDeFuentes.git>
